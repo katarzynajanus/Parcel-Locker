@@ -40,7 +40,7 @@ class ParcelLockerServiceTest {
         parcelLockerService.setParcelLockerCollection(parcelLockerCollection);
 
         //when
-        parcelLockerService.removeParcelLocker(1);q:
+        parcelLockerService.removeParcelLocker(1);q
 
         //then
 
