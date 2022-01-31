@@ -1,0 +1,22 @@
+1. Należy stworzyć klasę ParcelLocker, która będzie zawierać konkretne pola:
+    - int id;
+    - String name;
+    - String address;
+    - int capacity;
+
+2. Należy stworzyć klasę do operowania na tablicy Paczkomatów: ParcelLockerCollection, która umożliwy:
+    - dodawanie paczkomatu
+    - usuwanie po id
+    - wyświetlanie wszystkich paczkomatów
+
+3. Należy stworzyć klasę do prezentacji operacji możliwych do wykonania w systemie: ParcelLockerService
+    - dodawanie paczkomatu
+    - usuwanie paczkomatu
+    - zwracanie paczkomatów
+4. Należy stworzyć klasę reprezentującą interfejs graficzny użytkownika: ParcelLockerPresenter
+    - dodawanie paczkomatu
+    - usuwanie paczkomatu
+    - zwracanie paczkomatów
+5. Miejsce gdzie będzie wywołana logika: (Klasa z metodę main)
+
+ParcelLockerSystem <- ParcelLockerPresenter <- ParcelLockerService <- ParcelLockerCollection <- ParcelLocker
